@@ -24,6 +24,7 @@ Route::get('logout',[AuthController::class,'logout'])->name('logout');
 
 // Produk________________________________________________
 Route::get('/produk',[ProdukController::class,'index'])->name('produk.index');
+Route::get('/produk/create',[ProdukController::class,'index'])->name('produk.index');
 // ________________________________________________________________________________    
 // Transaksi________________________________________________
 Route::get('/export-transaksi', [ExportExcelController::class, 'export'])->name('export.transaksi');
