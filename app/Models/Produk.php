@@ -11,6 +11,7 @@ class Produk extends Model
         'kode',
         'nama',
         'harga',
-        'stok'
+        'stok',
+        'gambar',
     ];
 }

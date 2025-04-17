@@ -9,7 +9,7 @@
             </div>
             <div class="bg-white shadow-md rounded-lg p-4">
                 <h2 class="text-lg font-semibold">Total Produk</h2>
-                <p class="text-gray-500">50 Produk</p>
+                <p class="text-gray-500">{{$jumlahProduk}} Produk</p>
             </div>
             <div class="bg-white shadow-md rounded-lg p-4">
                 <h2 class="text-lg font-semibold">Total Pembelian</h2>

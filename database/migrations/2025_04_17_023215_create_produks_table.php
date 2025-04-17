@@ -17,6 +17,7 @@ return new class extends Migration
             $table->string('nama');
             $table->integer('harga');
             $table->integer('stok');
+            $table->string('gambar')->nullable();
             $table->timestamps();
         });
     }

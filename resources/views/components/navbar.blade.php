@@ -22,10 +22,10 @@
                <a href="/produk" class="flex items-center gap-2 p-2 rounded-md hover:bg-blue-100 {{ Request::is('produk') ? 'bg-blue-500 text-white' : '' }}">
                     <span>📦</span> Produk
                </a>
-               <a href="/penjualan" class="flex items-center gap-2 p-2 rounded-md hover:bg-blue-100 {{ Request::is('pembelian') ? 'bg-blue-500 text-white' : '' }}">
+               <a href="/transaksi" class="flex items-center gap-2 p-2 rounded-md hover:bg-blue-100 {{ Request::is('pembelian') ? 'bg-blue-500 text-white' : '' }}">
                     <span>🛒</span> Pembelian
                </a>
-               <a href="" class="flex items-center gap-2 p-2 rounded-md hover:bg-blue-100 {{ Request::is('user') ? 'bg-blue-500 text-white' : '' }}">
+               <a href="/user" class="flex items-center gap-2 p-2 rounded-md hover:bg-blue-100 {{ Request::is('user') ? 'bg-blue-500 text-white' : '' }}">
                     <span>👤</span> User
                </a>
           </nav>
